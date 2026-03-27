@@ -10,7 +10,7 @@
   };
 
   // === DATA (from your previous meta-tags.js) ===
-  const META_DATA = {"meta_tags_list":[{"page_url":"https://www.sprinkler-man.net/","title_tag":"Irrigation Repair Fort Worth | Sprinkler Man","meta_description":"Irrigation repair in Fort Worth, TX. Residential irrigation service, lawn sprinkler maintenance and leak detection for Tarrant County homes."},{"page_url":"https://www.sprinkler-man.net/about","title_tag":"Residential Irrigation Service Fort Worth | Sprinkler Man","meta_description":"Residential irrigation service and lawn sprinkler maintenance in Fort Worth, Tarrant and Parker County. Professional care for your lawn and garden."},{"page_url":"https://www.sprinkler-man.net/portfolios","title_tag":"Sprinkler Systems Texas Repair & Valves | Sprinkler Man","meta_description":"Sprinkler systems Texas repair: sprinkler valve repair, leak detection, high efficiency nozzles, backflow protection and irrigation system installation."},{"page_url":"https://www.sprinkler-man.net/contact","title_tag":"Irrigation Repair Fort Worth Contact | Sprinkler Man","meta_description":"Contact Sprinkler Man for irrigation repair Fort Worth, residential irrigation service, sprinkler valve repair and lawn sprinkler maintenance."}],"keywords":["Irrigation Repair Fort Worth","Sprinkler Systems Texas","Lawn Sprinkler Maintenance","Backflow Protection Fort Worth","Leak Detection Tarrant County","Residential Irrigation Service","Sprinkler Valve Repair","High Efficiency Nozzles","Lawn Care Fort Worth","Irrigation System Installation"]};
+  const META_DATA = {"meta_tags_list":[{"page_url":"https://www.sprinkler-man.net/","title_tag":"Irrigation Repair Fort Worth | Sprinkler Man Irrigation","meta_description":"Expert irrigation repair in Fort Worth, TX. Residential irrigation service, lawn sprinkler maintenance, leak detection, and backflow protection."},{"page_url":"https://www.sprinkler-man.net/about","title_tag":"Residential Irrigation Service | Sprinkler Man Fort Worth","meta_description":"Residential irrigation service and lawn sprinkler maintenance in Fort Worth, Tarrant and Parker County. Efficient water use and careful lawn preservation."},{"page_url":"https://www.sprinkler-man.net/portfolios","title_tag":"Sprinkler Systems Texas Repair | Sprinkler Man Services","meta_description":"Sprinkler systems Texas repair and installation. Sprinkler valve repair, leak detection, backflow protection, and high efficiency nozzles for your lawn."},{"page_url":"https://www.sprinkler-man.net/contact","title_tag":"Lawn Sprinkler Maintenance | Contact Sprinkler Man","meta_description":"Contact Sprinkler Man for irrigation repair Fort Worth, lawn sprinkler maintenance, sprinkler valve repair, and residential irrigation service."}],"keywords":["Irrigation Repair Fort Worth","Sprinkler Systems Texas","Lawn Sprinkler Maintenance","Backflow Protection Fort Worth","Leak Detection Tarrant County","Residential Irrigation Service","Sprinkler Valve Repair","High Efficiency Nozzles","Lawn Care Fort Worth","Irrigation System Installation"]};
 
   // === DATA (from your previous LD.js) ===
   const LD_DATA = {
@@ -19,94 +19,107 @@
   "@id": "https://www.sprinkler-man.net/#localbusiness",
   "name": "Sprinkler Man Irrigation and Repair",
   "url": "https://www.sprinkler-man.net/",
+  "description": "Sprinkler Man provides professional maintenance and repair of residential lawn sprinkler systems in Fort Worth and the Tarrant/Parker County areas, including Fort Worth, Mid-Cities, Keller, Southlake, Grapevine, Azle and Weatherford.",
   "image": [
     "https://static.wixstatic.com/media/1fa3b5_46464c63448e42ff8e4a29a449152358.png/v1/fill/w_144,h_258,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/1fa3b5_46464c63448e42ff8e4a29a449152358.png",
     "https://static.wixstatic.com/media/1fa3b5_5d2ccba806534a4f9ff810e3f3c9a3b6.jpg/v1/fill/w_715,h_447,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/1fa3b5_5d2ccba806534a4f9ff810e3f3c9a3b6.jpg"
   ],
-  "description": "Sprinkler Man Irrigation and Repair provides professional maintenance and repair of residential lawn sprinkler systems in Fort Worth and the Tarrant/Parker County areas, including Fort Worth, Mid-Cities, Keller, Southlake, Grapevine, Azle and Weatherford.",
   "telephone": "+1-817-983-3821",
-  "priceRange": "$$",
   "areaServed": [
     {
-      "@type": "Place",
-      "name": "Fort Worth, TX"
+      "@type": "City",
+      "name": "Fort Worth"
     },
     {
-      "@type": "Place",
-      "name": "Mid-Cities, TX"
+      "@type": "City",
+      "name": "Mid-Cities"
     },
     {
-      "@type": "Place",
-      "name": "Keller, TX"
+      "@type": "City",
+      "name": "Keller"
     },
     {
-      "@type": "Place",
-      "name": "Southlake, TX"
+      "@type": "City",
+      "name": "Southlake"
     },
     {
-      "@type": "Place",
-      "name": "Grapevine, TX"
+      "@type": "City",
+      "name": "Grapevine"
     },
     {
-      "@type": "Place",
-      "name": "Azle, TX"
+      "@type": "City",
+      "name": "Azle"
     },
     {
-      "@type": "Place",
-      "name": "Weatherford, TX"
+      "@type": "City",
+      "name": "Weatherford"
     }
   ],
+  "foundingDate": "2007",
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
-    "name": "Sprinkler Repair and Irrigation Services",
+    "name": "Sprinkler and Irrigation Repair Services",
     "itemListElement": [
       {
         "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Lawn Sprinkler System Repair",
-          "description": "Professional repair of residential lawn sprinkler systems, including broken pipes, leaks, driplines, and non-performing or leaking station valves.",
-          "areaServed": "Fort Worth and Tarrant/Parker County areas"
-        }
+        "name": "Repairing broken pipes, leaks and driplines"
       },
       {
         "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Irrigation Controller Diagnostics",
-          "description": "Diagnosing irrigation controller malfunctions and detection of cut or damaged field wiring.",
-          "areaServed": "Fort Worth and Tarrant/Parker County areas"
-        }
+        "name": "Repair of non-performing or leaking station valves"
       },
       {
         "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Sprinkler Head and Nozzle Service",
-          "description": "Nozzle, spray head and rotor replacement, plus adjusting spray patterns to ensure proper coverage and checking for appropriate hydraulics.",
-          "areaServed": "Fort Worth and Tarrant/Parker County areas"
-        }
+        "name": "Diagnosing irrigation controller malfunctions"
       },
       {
         "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Backflow Device Replacement and System Modifications",
-          "description": "Replacement of backflow protection devices, adding or modifying existing lines, and retro-fitting existing systems with high efficiency rotors or nozzles.",
-          "areaServed": "Fort Worth and Tarrant/Parker County areas"
-        }
+        "name": "Detection of cut or damaged field wiring"
+      },
+      {
+        "@type": "Offer",
+        "name": "Nozzle, spray head and rotor replacement"
+      },
+      {
+        "@type": "Offer",
+        "name": "Adjusting spray patterns to ensure proper coverage"
+      },
+      {
+        "@type": "Offer",
+        "name": "Checking for appropriate hydraulics"
+      },
+      {
+        "@type": "Offer",
+        "name": "Replacement of backflow protection device"
+      },
+      {
+        "@type": "Offer",
+        "name": "Adding or modifying existing lines"
+      },
+      {
+        "@type": "Offer",
+        "name": "Retro-fitting existing systems with high efficiency rotors or nozzles"
       }
     ]
   },
-  "makesOffer": [
-    {
-      "@type": "Offer",
-      "price": "105.00",
-      "priceCurrency": "USD",
-      "description": "Hourly rate for irrigation and sprinkler repair services. Rates after the first hour are calculated by the quarter hour. All services are provided by a licensed irrigator."
-    }
+  "priceRange": "$$$",
+  "knowsAbout": [
+    "lawn sprinkler repair",
+    "irrigation system repair",
+    "sprinkler system maintenance",
+    "residential lawn sprinklers",
+    "sprinkler leak repair",
+    "sprinkler valve repair",
+    "sprinkler controller diagnostics"
   ],
-  "founder": {
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+1-817-983-3821",
+    "contactType": "customer service",
+    "areaServed": "US-TX",
+    "availableLanguage": "en"
+  },
+  "employee": {
     "@type": "Person",
     "name": "Paul G. (Bucky) Burch"
   }
